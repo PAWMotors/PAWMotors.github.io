@@ -1,0 +1,21 @@
+@font-face{
+    font-family: 'PAW';
+    src: url(../assets/PAW.otf);
+}
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+h1{
+    font-family: 'PAW';
+    font-size: 15vw;
+}
+p{
+    font-family: Helvetica;
+}
