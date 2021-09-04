@@ -16,6 +16,12 @@ h1{
     font-family: 'PAW';
     font-size: 15vw;
 }
+.dark{
+    color: #888888
+}
+.darker{
+    color: #555555
+}
 p{
     font-family: Helvetica;
 }
