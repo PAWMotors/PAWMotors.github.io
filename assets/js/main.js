@@ -2,11 +2,11 @@ const navBlock = document.querySelector('#navContent')
 const steamBlock = document.querySelector('#steamContent')
 const navToggle = document.querySelector('#navToggle')
 const steamToggle = document.querySelector('#steamToggle')
-const facebookLink = document.querySelector('#narrowCard .fa-facebook')
-const twitterLink = document.querySelector('#narrowCard .fa-twitter')
-const instagramLink = document.querySelector('#narrowCard .fa-instagram')
-const tiktokLink = document.querySelector('#narrowCard .fa-tiktok')
-const youtubeLink = document.querySelector('#narrowCard .fa-youtube')
+const facebookLink = document.querySelector('#facebookIcon')
+const twitterLink = document.querySelector('#twitterIcon')
+const instagramLink = document.querySelector('#instagramIcon')
+const tiktokLink = document.querySelector('#tiktokIcon')
+const youtubeLink = document.querySelector('#youtubeIcon')
 var navStatus = false
 var steamStatus = false
 
