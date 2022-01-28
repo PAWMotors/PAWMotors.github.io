@@ -2,6 +2,11 @@ const navBlock = document.querySelector('#navContent')
 const steamBlock = document.querySelector('#steamContent')
 const navToggle = document.querySelector('#navToggle')
 const steamToggle = document.querySelector('#steamToggle')
+const facebookLink = document.querySelector('#narrowCard .fa-facebook')
+const twitterLink = document.querySelector('#narrowCard .fa-twitter')
+const instagramLink = document.querySelector('#narrowCard .fa-instagram')
+const tiktokLink = document.querySelector('#narrowCard .fa-tiktok')
+const youtubeLink = document.querySelector('#narrowCard .fa-youtube')
 var navStatus = false
 var steamStatus = false
 
@@ -66,6 +71,22 @@ steamToggle.addEventListener('click', () => {
     }
 })
 
+facebookLink.addEventListener('click', () => {
+    window.location.href = 'https://www.facebook.com/'
+})
+twitterLink.addEventListener('click', () => {
+    window.location.href = 'https://www.twitter.com/'
+})
+instagramLink.addEventListener('click', () => {
+    window.location.href = 'https://www.instagram.com/'
+})
+tiktokLink.addEventListener('click', () => {
+    window.location.href = 'https://www.tiktok.com/'
+})
+youtubeLink.addEventListener('click', () => {
+    window.location.href = 'https://www.youtube.com/'
+})
+
 window.addEventListener('resize', () => {
     setViewportProperties()
 })
@@ -74,3 +95,5 @@ setViewportProperties()
 
 navBlock.style.display = 'none'
 steamBlock.style.display = 'none'
+
+alert('Hello!')
