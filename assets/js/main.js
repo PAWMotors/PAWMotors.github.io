@@ -2,11 +2,12 @@ const navBlock = document.querySelector('#navContent')
 const steamBlock = document.querySelector('#steamContent')
 const navToggle = document.querySelector('#navToggle')
 const steamToggle = document.querySelector('#steamToggle')
-const facebookLink = document.querySelector('#facebookIcon')
 const twitterLink = document.querySelector('#twitterIcon')
 const instagramLink = document.querySelector('#instagramIcon')
 const tiktokLink = document.querySelector('#tiktokIcon')
 const youtubeLink = document.querySelector('#youtubeIcon')
+const discordLink = document.querySelector('#discordIcon')
+const githubLink = document.querySelector('#githubIcon')
 var navStatus = false
 var steamStatus = false
 
@@ -71,20 +72,23 @@ steamToggle.addEventListener('click', () => {
     }
 })
 
-facebookLink.addEventListener('click', () => {
-    window.location.href = 'https://www.facebook.com/'
-})
 twitterLink.addEventListener('click', () => {
-    window.location.href = 'https://www.twitter.com/'
+    window.location.href = 'https://www.twitter.com/PAW__Tech'
 })
 instagramLink.addEventListener('click', () => {
-    window.location.href = 'https://www.instagram.com/'
+    window.location.href = 'https://www.instagram.com/pawtech'
 })
 tiktokLink.addEventListener('click', () => {
-    window.location.href = 'https://www.tiktok.com/'
+    window.location.href = 'https://www.tiktok.com/pawtech'
 })
 youtubeLink.addEventListener('click', () => {
-    window.location.href = 'https://www.youtube.com/'
+    window.location.href = 'https://www.youtube.com/                                                                                                                                                                                                                                                        '
+})
+discordLink.addEventListener('click', () => {
+    window.location.href = 'https://discord.gg/'
+})
+githubLink.addEventListener('click', () => {
+    window.location.href = 'https://github.com'
 })
 
 window.addEventListener('resize', () => {
