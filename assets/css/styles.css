@@ -71,6 +71,22 @@ body{
 .card:hover{
     transform: scale(105%);
 }
+.cardHeader{
+    width: 100vw;
+    height: 250px;
+    color: white;
+    margin-bottom: 3vh;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    transition: 0.2s;
+}
 .narrowCard{
     width: 90vw;
     height: 50px;
