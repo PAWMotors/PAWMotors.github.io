@@ -74,7 +74,7 @@ body{
 .narrowCard{
     width: 90vw;
     height: 50px;
-    color: white;
+    color: #333;
     margin-left: 5vw;
     margin-bottom: 3vh;
     text-align: center;
@@ -156,4 +156,29 @@ body{
 }
 #sx{
     background: url('../../assets/img/sx.png') center / cover no-repeat;
+}
+#twitterIcon:hover{
+    color: #1da1f2;
+}
+#instagramIcon:hover{
+    color: #e1306c;
+}
+#tiktokIcon:hover{
+    color: #ff0050;
+}
+#youtubeIcon:hover{
+    color: #ff0000;
+}
+#discordIcon:hover{
+    color: #7289da;
+}
+#githubIcon:hover{
+    color: #fff;
+}
+#redditIcon:hover{
+    color: #ff4500;
+}
+
+.fab:hover{
+    scale: 120%;
 }

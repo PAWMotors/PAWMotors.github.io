@@ -8,6 +8,9 @@ const tiktokLink = document.querySelector('#tiktokIcon')
 const youtubeLink = document.querySelector('#youtubeIcon')
 const discordLink = document.querySelector('#discordIcon')
 const githubLink = document.querySelector('#githubIcon')
+const redditLink = document.querySelector('#redditIcon')
+const workshopLink = document.querySelector('#workshopPage')
+const storeLink = document.querySelector('#storePage')
 var navStatus = false
 var steamStatus = false
 
@@ -76,19 +79,28 @@ twitterLink.addEventListener('click', () => {
     window.location.href = 'https://www.twitter.com/PAW__Tech'
 })
 instagramLink.addEventListener('click', () => {
-    window.location.href = 'https://www.instagram.com/pawtech'
+    window.location.href = 'https://www.instagram.com/paw_tech'
 })
 tiktokLink.addEventListener('click', () => {
     window.location.href = 'https://www.tiktok.com/pawtech'
 })
 youtubeLink.addEventListener('click', () => {
-    window.location.href = 'https://www.youtube.com/                                                                                                                                                                                                                                                        '
+    window.location.href = 'https://www.youtube.com/channel/UCjq3IApfQ4Vn1XfaDLhXj7A'
 })
 discordLink.addEventListener('click', () => {
-    window.location.href = 'https://discord.gg/'
+    window.location.href = 'https://discord.gg/invite/x6ha55vJZu'
 })
 githubLink.addEventListener('click', () => {
-    window.location.href = 'https://github.com'
+    window.location.href = 'https://github.com/PAWMotors'
+})
+redditLink.addEventListener('click', () => {
+    window.location.href = 'https://www.reddit.com/user/PAW-Motors'
+})
+workshopLink.addEventListener('click', () => {
+    window.location.href = 'https://steamcommunity.com/profiles/76561198881074604/myworkshopfiles/?appid=573090'
+})
+storeLink.addEventListener('click', () => {
+    window.location.href = 'https://store.steampowered.com/app/573090/Stormworks_Build_and_Rescue/'
 })
 
 window.addEventListener('resize', () => {
@@ -100,4 +112,4 @@ setViewportProperties()
 navBlock.style.display = 'none'
 steamBlock.style.display = 'none'
 
-alert('Hello!')
+alert('Paving the Future')
