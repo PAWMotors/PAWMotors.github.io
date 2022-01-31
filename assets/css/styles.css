@@ -91,9 +91,7 @@ body{
 .narrowCard i{
     margin: 10px;
     font-size: 25px;
-}
-.narrowCard i:hover{
-    color: #333
+    transition: 0.2s;
 }
 #navContent{
     background-color: black;
@@ -159,24 +157,31 @@ body{
 }
 #twitterIcon:hover{
     color: #1da1f2;
+    transform: scale(135%)
 }
 #instagramIcon:hover{
     color: #e1306c;
+    transform: scale(135%)
 }
 #tiktokIcon:hover{
     color: #ff0050;
+    transform: scale(135%)
 }
 #youtubeIcon:hover{
     color: #ff0000;
+    transform: scale(135%)
 }
 #discordIcon:hover{
     color: #7289da;
+    transform: scale(135%)
 }
 #githubIcon:hover{
     color: #fff;
+    transform: scale(135%)
 }
 #redditIcon:hover{
     color: #ff4500;
+    transform: scale(135%)
 }
 
 .fab:hover{
