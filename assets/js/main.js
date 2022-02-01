@@ -2,6 +2,7 @@ const navBlock = document.querySelector('#navContent')
 const steamBlock = document.querySelector('#steamContent')
 const navToggle = document.querySelector('#navToggle')
 const steamToggle = document.querySelector('#steamToggle')
+
 const twitterLink = document.querySelector('#twitterIcon')
 const instagramLink = document.querySelector('#instagramIcon')
 const tiktokLink = document.querySelector('#tiktokIcon')
@@ -9,8 +10,12 @@ const youtubeLink = document.querySelector('#youtubeIcon')
 const discordLink = document.querySelector('#discordIcon')
 const githubLink = document.querySelector('#githubIcon')
 const redditLink = document.querySelector('#redditIcon')
+
 const workshopLink = document.querySelector('#workshopPage')
 const storeLink = document.querySelector('#storePage')
+
+const scorpionNavItem = document.querySelector('#scorpionNavItem')
+
 var navStatus = false
 var steamStatus = false
 
@@ -111,5 +116,3 @@ setViewportProperties()
 
 navBlock.style.display = 'none'
 steamBlock.style.display = 'none'
-
-alert('Paving the Future')
