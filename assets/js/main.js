@@ -11,8 +11,6 @@ const discordLink = document.querySelector('#discordIcon')
 const githubLink = document.querySelector('#githubIcon')
 const redditLink = document.querySelector('#redditIcon')
 
-const scorpionLink = document.querySelector('#scorpion')
-
 const scorpionNavLink = document.querySelector('#scorpionNavLink')
  
 const workshopLink = document.querySelector('#workshopPage')
@@ -112,9 +110,6 @@ storeLink.addEventListener('click', () => {
     window.location.href = 'https://store.steampowered.com/app/573090/Stormworks_Build_and_Rescue/'
 })
 
-scorpionLink.addEventListener('click', () => {
-    window.location.href = 'scorpion'
-})
 scorpionNavLink.addEventListener('click', () => {
     window.location.href = 'scorpion'
 })
